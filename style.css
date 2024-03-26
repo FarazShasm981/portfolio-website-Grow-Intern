@@ -57,7 +57,7 @@ header .name {
     background: #15154d;
     border-radius: 50%;
     border: 25px solid #fff;
-    background-image: url(/images/picture.jpg);
+    background-image: url(./images/picture.jpg);
     background-position: center;
     background-size: cover;
 
