@@ -136,7 +136,109 @@ header .name {
     text-decoration: none;
     border-radius: 40px;
     letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 .btn:hover{
     box-shadow: 0 0 10px rgb(0, 191, 255);
+}
+
+/* ----------------CONTACT FORM--------------------- */
+.contact-form{
+    background: #15154d;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.contact-form h2 span{
+    color: rgb(0, 191, 255);
+    
+}
+
+.contact-form form{
+    max-width: 50em;
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 3em;
+}
+.contact-form form .input-box{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    background: rgb(241, 241, 241);
+    color: black;
+    margin: 1rem 0;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: .8rem;
+}
+
+/* ----------------footer---------------- */
+.footer{
+    width: 100%;
+    background:#15154d ;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    padding: 40px 0;
+
+}
+.footer .social{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.footer .social a{
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+    transition: .5s ease;
+    margin-left: 10px;
+
+}
+.footer .social a:hover{
+        background: rgb(0, 191, 255);
+        color: #fff;
+        border: 2px solid rgb(0, 191, 255);
+        box-shadow: 0 0 10px rgb(0, 191, 255);
+    
+}
+.footer ul{
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer p{
+text-align: center;
+margin-top: 20px;
+
 }
